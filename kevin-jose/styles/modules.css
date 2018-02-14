@@ -1,0 +1,35 @@
+.main-nav ul{
+  display: none;
+  padding: 0;
+  list-style-type: none;
+}
+
+.main-nav li {
+  margin: 1vw;
+  border-bottom: .1vw solid grey;
+}
+
+.icon-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.icon-menu:hover + ul{
+  display: block;
+}
+
+@media only screen and (min-width: 600px) {
+  .main-nav ul{
+    display: block;
+    padding: 0;
+    list-style-type: none;
+  }
+  .main-nav li{
+    display: inline;
+    border-bottom: none;
+  }
+  .icon-menu {
+    display: none;
+  }
+}
