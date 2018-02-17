@@ -9,3 +9,6 @@ float: right;
   overflow: auto;
 }
 
+.template {
+  display: none;
+}
